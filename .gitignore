@@ -24,3 +24,5 @@ hs_err_pid*
 /target/
 /.idea/libraries/Maven__org_xerial_sqlite_jdbc_3_36_0_3.xml
 /.idea/sqldialects.xml
+/.idea/libraries/Maven__com_h2database_h2_2_1_212.xml
+/ctf.mv.db

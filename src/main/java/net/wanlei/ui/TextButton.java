@@ -10,9 +10,11 @@ import java.awt.event.ActionListener;
 public class TextButton extends JButton implements ActionListener {
     private StringSelection clipboardText;
 
-    public TextButton() {
+    public TextButton(String text, String clipboardText) {
+        this.setSize(100, 30);
         addActionListener(this);
-        this.setClipboardText(new StringSelection("abc"));
+        this.setText(text);
+        this.setClipboardText(new StringSelection(clipboardText));
     }
 
     @Override
